@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build:web": "npx expo export -p web"
-  },
+  "start": "expo start",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "web": "expo start --web",
+  "build:web": "npx expo export -p web",
+  "vercel-build": "npx expo export -p web"
+},
   "dependencies": {
     "@expo-google-fonts/nunito": "^0.2.3",
     "@expo/vector-icons": "^15.0.2",
